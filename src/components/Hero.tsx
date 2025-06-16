@@ -27,7 +27,11 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="w-full h-full bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-full flex items-center justify-center text-6xl font-bold">
-              SV
+              <img 
+              src="you.jpg" 
+              alt="profilepic" 
+              className="w-full h-full object-cover rounded-full"
+              />
             </div>
             <motion.div
               className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500"
